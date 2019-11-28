@@ -1,0 +1,6 @@
+extends ../layout
+block content
+  h1 Enviar mensaje 
+  form(action="aurelia/mensaje", method="POST")
+    textarea(name="texto")
+    input(type='submit', value="Enviar")
